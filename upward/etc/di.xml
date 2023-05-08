@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * NexImport
+ * @author Silksoftwarecorpsoftware Team
+ * @package Silksoftwarecorp_NexImport
+ * @copyright Copyright (c) 2019 Silksoftwarecorp Software Corp. (https://www.Silksoftwarecorpsoftware.com)
+ * @license  https://www.Silksoftwarecorpsoftware.com/licenses/magento_extensions_license_1.0.txt | Silksoftwarecorp Software Corp. | Extension License 1.0
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+ <preference for="Magento\UpwardConnector\Controller\UpwardControllerFactory" type="Silksoftwarecorp\Upward\Model\UpwardFactory" />
+</config>

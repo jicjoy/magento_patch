@@ -1,0 +1,23 @@
+{
+    "name": "silksoftwarecorp/upward",
+    "description": "Fix Next lazy image Url Proxy for magento",
+    "type": "magento2-module",
+    "authors": [
+        {
+            "name": "worf tan",
+            "email": "worf.tan@Silksoftwarecorpdigital.dev"
+        }
+    ],
+    "require": {
+        "php": "^7.4.0"
+    },
+    "version": "1.0.1",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Silksoftwarecorp\\Upward\\": ""
+        }
+    }
+}
